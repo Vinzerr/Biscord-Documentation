@@ -21,7 +21,7 @@ module.exports = {
     nextLinks: false,
     prevLinks: false,
     smoothScroll: true,
-    base: 'https://github.com/Vinzerr/Biscord-Documentation.git',
+    base: '/Biscord-Documentation/',
     dest: public,
     nav: [
       {
