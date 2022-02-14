@@ -1,0 +1,19 @@
+{
+  "name": "Biscord",
+  "version": "0.0.1",
+  "description": "Advance framwork for Discord.js Bots.",
+  "main": "index.js",
+  "authors": {
+    "name": "Vinzer",
+    "email": "vincentbuencuchillo@gmail.com"
+  },
+  "repository": "https://github.com/Vinzerr/Biscord-Documentation.git/Biscord",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
