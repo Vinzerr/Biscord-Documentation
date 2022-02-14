@@ -13,5 +13,5 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: Vinzerr/Biscord-Documentation
         TARGET_BRANCH: master
-        BUILD_SCRIPT: yarn && yarn build
-        BUILD_DIR: docs/.vuepress/dist
+        BUILD_SCRIPT: yarn && yarn docs:build
+        BUILD_DIR: docs/src/.vuepress/dist
