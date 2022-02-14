@@ -14,15 +14,15 @@ module.exports = {
 
   themeConfig: {
     repo: 'https://github.com/Vinzerr/Biscord-Documentation.git',
-    editLinks: false,
+    docsBranch: 'master',
     docsDir: 'docs',
+    editLinks: false,
     editLinkText: '',
     lastUpdated: false,
     nextLinks: false,
     prevLinks: false,
     smoothScroll: true,
     base: '/Biscord-Documentation/',
-    dest: public,
     nav: [
       {
         text: 'Biscord',
@@ -77,7 +77,11 @@ module.exports = {
           ]
         }
       ],
-    }
+    },
+    themePlugins: {
+      backToTop: true,
+      mediumZoom: false,
+    },
   },
 
   plugins: [
