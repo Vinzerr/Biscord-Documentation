@@ -13,7 +13,7 @@ module.exports = {
   ],
 
   themeConfig: {
-    repo: 'https://github.com/Vinzerr/Biscord-Documentation.git',
+    repo: 'https://github.com/Vinzerr/Biscord-Documentation',
     docsBranch: 'master',
     docsDir: 'docs',
     editLinks: false,
