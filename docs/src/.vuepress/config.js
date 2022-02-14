@@ -22,6 +22,7 @@ module.exports = {
     prevLinks: false,
     smoothScroll: true,
     base: 'https://github.com/Vinzerr/Biscord-Documentation.git',
+    dest: public,
     nav: [
       {
         text: 'Biscord',
