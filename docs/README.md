@@ -1,6 +1,7 @@
 ---
 home: true
-tagline: Advance framework for Discord Bots.
+heroText: Biscord
+tagline: "Advance framework for Discord Bots."
 actions:
 - text: Introduction
   link: /doc/introduction/
