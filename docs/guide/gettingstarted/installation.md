@@ -53,13 +53,13 @@ You can quickly launch the terminal, by pressing `Ctrl + Alt + T`.
 
 ## Initiating a Project
 
-``` npm NPM
+``` bash NPM
   npm init
 ```
-```yarn YARN
+``` bash YARN
   yarn init
 ```
-``` pnpm PNPM
+``` bash PNPM
   pnpm init
 ```
 
@@ -71,13 +71,13 @@ This command will prompt you with a series of questions, which you should answer
 
   To get started quickly, run the following command, which will fill in all of the blanks for you.
 
-  ``` npm NPM
+  ``` basah NPM
     npm init -y
   ```
-  ```yarn YARN
+  ``` bash YARN
     yarn init -y
   ```
-  ``` pnpm PNPM
+  ``` bash PNPM
     pnpm init -y
   ```
 

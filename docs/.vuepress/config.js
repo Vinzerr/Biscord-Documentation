@@ -46,7 +46,7 @@ module.exports = {
           ]
         },{
           title: 'Getting Started',
-          collapsible: false,
+          collapsable: false,
           children: [
             '/guide/gettingstarted/installation'
           ]
@@ -57,7 +57,7 @@ module.exports = {
           title: 'Introduction',
           collapsable: false,
           children: [
-            '/doc/introduction/gettingstarted',
+            '/doc/',
             '/doc/introduction/changelog.md'
           ]
         },{
