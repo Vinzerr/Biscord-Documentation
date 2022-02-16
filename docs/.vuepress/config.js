@@ -23,18 +23,11 @@ module.exports = {
     nextLinks: false,
     prevLinks: false,
     smoothScroll: true,
+    base: '/#/',
     nav: [
       {
         text: 'Biscord',
-        items: [
-          {
-            text: 'About Biscord',
-            link: '/'
-          },{
-            text: 'Npm Package',
-            link: 'https://www.npmjs.com/package/biscord'
-          }
-        ]
+        link: '/'
       },
       {
         text: 'Documentation',

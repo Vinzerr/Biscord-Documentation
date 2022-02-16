@@ -1,10 +1,7 @@
 ---
-
 home: true
-
-heroText: Biscord
-
-tagline: Advance framework for Discord Bots.
+heroText: "Biscord"
+tagline: "Advance framework for Discord Bots."
 
 actions:
 - text: Introduction
@@ -13,7 +10,6 @@ actions:
 - text: Download
   link: https://www.npmjs.com/package/biscord
   type: secondary
-
 features:
 - title: Advance Framework
   details: Powerful and Advanced Client constructor. 
