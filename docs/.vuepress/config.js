@@ -11,7 +11,8 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
-  base: '/Biscord-Documentation/',
+
+  base: '/#/',
 
   themeConfig: {
     repo: 'https://github.com/Vinzerr/Biscord-Documentation',
@@ -23,7 +24,6 @@ module.exports = {
     nextLinks: false,
     prevLinks: false,
     smoothScroll: true,
-    base: '/#/',
     nav: [
       {
         text: 'Biscord',
@@ -31,10 +31,29 @@ module.exports = {
       },
       {
         text: 'Documentation',
-        link: '/doc/introduction/gettingstarted',
+        link: '/doc/',
+      },
+      {
+        text: 'Guide',
+        link: '/guide/'
       }
     ],
     sidebar: {
+      '/guide/': [
+        {
+          title: 'Guide',
+          collapsable: false,
+          children: [
+            '/guide/'
+          ]
+        },{
+          title: 'Getting Started',
+          collapsible: false,
+          children: [
+            '/guide/gettingstarted/installation'
+          ]
+        }
+      ],
       '/doc/': [
         {
           title: 'Introduction',
