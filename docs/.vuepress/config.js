@@ -9,7 +9,7 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
 
-  base: '/biscord-website/',
+  //base: '/',
 
   themeConfig: {
     repo: 'https://github.com/Vinzerr/biscord',
