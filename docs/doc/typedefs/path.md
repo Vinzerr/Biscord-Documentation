@@ -29,7 +29,7 @@ Path to your folders and files, path will start from your root directory.
 ## Handled Categories
 
 `Root Directory / index.js` <br>
-`Root Directory / resources /commands / information / help.js ` <br> 
+`Root Directory / resources / commands / information / help.js ` <br> 
 `Root Directory / resources / commands / ban.js ` <br>
 
 Handler that supports Handled Categories ( base folder with another folder inside ) detects folder and files.

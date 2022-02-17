@@ -1,4 +1,4 @@
-# Event Setup
+# EventSetup
 
 | KEY | TYPE | DESCRIPTION | OPTIONAL | DEFAULT |
 | :-: | :--: | ----------- | :------: | :-----: |

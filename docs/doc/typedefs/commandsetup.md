@@ -1,4 +1,4 @@
-# Command Setup
+# CommandSetup
 
 | KEY | TYPE | DESCRIPTION | OPTIONAL | DEFAULT |
 | :-: | :--: | ----------- | :------: | :-----: |

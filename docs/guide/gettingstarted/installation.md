@@ -53,6 +53,8 @@ You can quickly launch the terminal, by pressing `Ctrl + Alt + T`.
 
 ## Initiating a Project
 
+The next command you'll run is this one. 
+
 <code-group>
 <code-block title = 'NPM'>
 ``` bash
@@ -73,7 +75,7 @@ You can quickly launch the terminal, by pressing `Ctrl + Alt + T`.
 </code-block>
 </code-group>
 
-The next command you'll run is this one. This command will generate a package.json file for you, which will store information about your project's dependencies as well as other information.
+This command will generate a package.json file for you, which will store information about your project's dependencies as well as other information.
 
 This command will prompt you with a series of questions, which you should answer as you see fit. Leave it blank and press enter if you're unsure of something or want to skip it entirely.
 
