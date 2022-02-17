@@ -58,8 +58,7 @@ module.exports = {
           title: 'Classes',
           collapsable: false,
           children: [
-            '/doc/classes/biscord.md',
-            '/doc/classes/managers.md'
+            '/doc/classes/biscord.md'
           ]
         },{
           title: 'Managers',
@@ -73,7 +72,6 @@ module.exports = {
           collapsable: false,
           children: [
             '/doc/typedefs/path.md',
-            '/doc/typedefs/events.md',
             '/doc/typedefs/commandsetup.md',
             '/doc/typedefs/commandsettings.md',
             '/doc/typedefs/eventsetup.md',
