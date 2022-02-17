@@ -1,10 +1,19 @@
 # Command Setup
 
-Each of your command files should have this inside.
+| KEY | TYPE | DESCRIPTION | OPTIONAL | DEFAULT |
+| :-: | :--: | ----------- | :------: | :-----: |
+| command | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | The name of the commands | ⨯ | `none` |
+| description | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | The description of the command. | ✓ | `Developer didn't specify the description of the command.` | 
+| blockedUsers | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) | The users cannot execute this command. | ✓ | `[]` |
+| blockedRoles | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) | The users who has these roles cannot execute this command. | ✓ | `[]` |
+| users | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) | The users who can only execute this command. | ✓ | `[]` |
+| roles | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) | The users who has these roles can only execute this command. | ✓ | `[]` |
+| permissions | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) | The users who has these permissions can only execute this command. | ✓ | `[]` |
+| preExecute | [Async Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) | Executes before the command is executed. | ✓ | `none` | 
+| Execute | [Async Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) | Executes after preExecute or the main Execution of the command. | ✓ | `none` | 
+| postExecute | [Async Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) | Executes after the command is executed ( after Execute ). | ✓ | `none` | 
 
-::: tip
-  All settings are optional, if it is undefined or empty, default values will be submitted instead
-:::
+## Example
 
 ```js
   
@@ -18,24 +27,27 @@ Each of your command files should have this inside.
     blockedUsers: [ ],
     blockedRoles: [ ],
   
-    async execute ( message , arguments ) {
+    async preExecute ( message , arguments ) {
+      /*
+        You may put your code to be executed
+        when before the main Execution is fired.
+      */
+    },
+
+    async Execute ( message , arguments ) {
       /*
         You may put your code to be executed
         when the command is fired.
+      */
+    },
+
+    async postExecute ( message , arguments ) {
+      /*
+        You may put your code to be executed
+        after the command is fired.
       */
     }
   
   }
   
 ```
-
-| Parameter | Description |
-| :-------- | :---------- |
-| Command |  The name of the command. |
-| Description | The description of the command. |
-| BlockedRoles < [Role Name](https://discord.js.org/#/docs/discord.js/stable/class/Role?scrollTo=name) , [Snowflake](https://discord.js.org/#/docs/discord.js/stable/typedef/Snowflake) > | Prevents the user who has these roles from executing the command. |
-| BlockedUsers < [Snowflake](https://discord.js.org/#/docs/discord.js/stable/typedef/Snowflake) > | Prevent these users from executing this command. |
-| Permissions < [Permission Flags](https://discord.com/developers/docs/topics/permissions#permissions-bitwise-permission-flags) >|  Permission required to execute this command when user doesn't have both roles or in the users parameter. |
-| Roles < [Role Name](https://discord.js.org/#/docs/discord.js/stable/class/Role?scrollTo=name) , [Snowflake](https://discord.js.org/#/docs/discord.js/stable/typedef/Snowflake) > | Required Roles to execute this command. |
-| Users < [Snowflake](https://discord.js.org/#/docs/discord.js/stable/typedef/Snowflake) > | Only allow these users to execute the command. |
-| Parameters ( message < [Message Object](https://discord.js.org/#/docs/discord.js/stable/class/Message) > , arguments < Array >) | These values are passed when the command is fired. |

@@ -1,26 +1,25 @@
 ---
 home: true
-heroText: "Biscord"
+heroText: Biscord
 tagline: "Advance framework for Discord Bots."
 
 actions:
-- text: Introduction
-  link: /doc/introduction/
-  type: primary
-- text: Download
-  link: https://www.npmjs.com/package/biscord
-  type: secondary
-  
+  - text: Introduction
+    link: /doc/
+    type: primary
+  - text: Download package
+    link: https://www.npmjs.com/package/biscord
+    type: secondary
 features:
-- title: Advance Framework
-  details: Powerful and Advanced Client constructor. 
-- title: Beginner Friendly
-  details: Basic module classes and manager constructor.
-- title: JS 
-  details: Full javasript support.
-
+  - title: Advance Framework
+    details: Powerful and Advanced Client constructor. 
+  - title: Flexible
+    details: Flexible Client managers.
+  - Feature-rich
+    details: Features you can't access with other packages.
+  - title: Pure JS
+    details: Full javascript support.
 footer: © Biscord 2021
-
 ---
 
 # I think, therefore Biscord. 
@@ -41,12 +40,16 @@ Create your bot in a matter of minutes.
 
 ```javascript
 
-  // Constructing the framework
-
   var biscord = require('biscord');
   
-  var Biscord = new Biscord( Token , ClientOptions );
+  var Biscord = new biscord();
 
-  Biscord.initialize()
+  var Client = Biscord.initialize( Token );
+
+  /*
+
+    An you're all set! You can now use your bot in your discord servers.
+
+  */
 
 ```

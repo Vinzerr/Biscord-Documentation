@@ -1,15 +1,7 @@
 # CommandSettings
 
-The default and editable settings for your CommandHandler.
+Type: [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
 
-::: tip
-  All settings are optional, if it is undefined or empty, default values will be submitted instead
-:::
-
-```js
-
-  {
-    prefix: '!'
-  }
-  
-```
+| KEY | TYPE | DESCRIPTION | OPTIONAL | DEFAULT |
+| :-: | :--: | ----------- | :------: | :-----: |
+| prefix | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | The prefix to execute commands. | ✓ | ! |

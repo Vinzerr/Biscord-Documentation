@@ -9,8 +9,6 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
 
-  //base: '/',
-
   themeConfig: {
     repo: 'https://github.com/Vinzerr/biscord',
     docsRepo: 'https://github.com/Vinzerr/biscord-website',
@@ -23,10 +21,6 @@ module.exports = {
     prevLinks: false,
     smoothScroll: true,
     nav: [
-      {
-        text: 'Biscord',
-        link: '/'
-      },
       {
         text: 'Documentation',
         link: '/doc/',

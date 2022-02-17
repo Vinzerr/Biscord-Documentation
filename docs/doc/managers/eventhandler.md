@@ -1,21 +1,25 @@
-# EventHandler
+# Event Handler
 
-Handle your client events with EventHandler manager.
+Handle your events for your client.
 
-| Parameter | Optional | Description |
-| :-------- | :------: | :---------- |
-| [Path](/doc/typedefs/path) | false | The path to your events folder. |
-| EventSettings  | true | The settings you wish to set up EventHandler. | 
+## Constructor
 
+```javascript
+
+  new Biscord.EventHandler(path);
+
+```
+
+| PARAMETER | TYPE | OPTIONAL | DESCRIPTION |
+| :-----: | :--------: | ----------- |
+| Path | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | ⨯ | The path to your events. |
 
 ## Methods
 
-Manage your EventHandler with these methods.
+### .get(query)
+Gets an evebt by their name or an alias.
 
-### get 
-
-| Parameter | Optional | Description |
-| :-------- | :------: | :---------- |
-| query | false | The name or an alias of the event you wish to get. |
-
-Returns: < Boolean , JSON Object >
+| PARAMETER | TYPE | OPTIONAL | DESCRIPTION |
+| :-----: | :--------: | ----------- |
+| Query | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | ⨯ | The name of an event. |
+Returns: < [Boolean](https://developer.mozilla.org/en-US/docs/Glossary/Boolean) , [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) >

@@ -1,10 +1,11 @@
 # Event Setup
 
-Each of your event files should have this inside.
+| KEY | TYPE | DESCRIPTION | OPTIONAL | DEFAULT |
+| :-: | :--: | ----------- | :------: | :-----: |
+| event | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | The event. | ⨯ | `none` |
+| once | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | If the file will listen to the event once. | ✓ | `false` | 
+| Execute | [Async Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) | When the event is executed. | ✓ | `none` |
 
-::: tip
-  All settings are optional, if it is undefined or empty, default values will be submitted instead
-:::
 
 ```js
 
@@ -22,9 +23,3 @@ Each of your event files should have this inside.
   }
 
 ```
-
-| Parameter | Description |
-| :-------- | :---------- |
-| event | The name of the event. |
-| once | If the file will listen to the event once only. |
-| Params ( < [Client Events Params](https://discord.js.org/#/docs/discord.js/stable/class/Client?scrollTo=e-apiRequest) > ) | These values are passed when the event is fired.| 
