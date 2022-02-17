@@ -53,15 +53,23 @@ You can quickly launch the terminal, by pressing `Ctrl + Alt + T`.
 
 ## Initiating a Project
 
-``` bash NPM
+<code-group>
+<code-block title = 'NPM'>
+``` bash
   npm init
 ```
-``` bash YARN
+</code-block>
+<code-block title = 'YARN'>
+``` bash
   yarn init
 ```
-``` bash PNPM
+</code-block>
+<code-block title = 'PNPM'>
+``` bash
   pnpm init
 ```
+</code-block>
+</code-group>
 
 The next command you'll run is this one. This command will generate a package.json file for you, which will store information about your project's dependencies as well as other information.
 
@@ -71,15 +79,23 @@ This command will prompt you with a series of questions, which you should answer
 
   To get started quickly, run the following command, which will fill in all of the blanks for you.
 
-  ``` basah NPM
-    npm init -y
-  ```
-  ``` bash YARN
-    yarn init -y
-  ```
-  ``` bash PNPM
-    pnpm init -y
-  ```
+  <code-group>
+  <code-block title = 'NPM'>
+    ``` bash
+      npm init -y 
+    ```
+  </code-block>
+  <code-block title = 'YARN'>
+    ``` bash
+       yarn init -y
+    ```
+  </code-block>
+  <code-block title = 'PNPM'>
+    ``` bash
+      pnpm init -y
+    ```
+  </code-block>
+  </code-group>
 
 :::
 
@@ -89,14 +105,22 @@ Once you're done with that, you're ready to install Biscord!
 
 Now that you've installed Node.js and know how to open your console and run commands, you can finally install discord.js! Run the following command in your terminal:
 
-``` npm NPM
+<code-group>
+<code-block title = 'NPM'>
+``` bash
   npm install biscord
 ```
-```yarn YARN
+</code-block>
+<code-block title = 'YARN'>
+``` bash
   yarn add biscord
 ```
-``` pnpm PNPM
+</code-block>
+<code-block title = 'PNPM'>
+``` bash
   pnpm add biscord
 ```
+</code-block>
+</code-group>
 
-And that's it! With all the necessities installed, you're almost ready to start coding your bot
+And that's it! With all the necessities installed, you're almost ready to start coding your bot.

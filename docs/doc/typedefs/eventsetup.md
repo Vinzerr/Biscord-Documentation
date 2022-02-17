@@ -14,7 +14,7 @@
     event: 'None' // No default 
     once: false,
   
-    async execute ( params ) {
+    async Execute ( params ) {
       /*
       You may put your code here to be executed
       when the event is fired.

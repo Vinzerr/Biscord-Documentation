@@ -16,8 +16,9 @@ The mind of your client.
 Logins the Client to the provided account.
 
 | PARAMETER | TYPE | OPTIONAL | DESCRIPTION |
-| :-----: | :--------: | ----------- |
+| :---: | :-----: | :-----: | ----------- |
 | Token | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | ⨯ | Token of the account to log in into. |
+
 Returns: [Client](https://discord.js.org/#/docs/main/stable/class/Client)
 
 ## Events
