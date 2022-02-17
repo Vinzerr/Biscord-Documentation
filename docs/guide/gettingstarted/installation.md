@@ -59,11 +59,13 @@ You can quickly launch the terminal, by pressing `Ctrl + Alt + T`.
   npm init
 ```
 </code-block>
+
 <code-block title = 'YARN'>
 ``` bash
   yarn init
 ```
 </code-block>
+
 <code-block title = 'PNPM'>
 ``` bash
   pnpm init
@@ -85,11 +87,13 @@ This command will prompt you with a series of questions, which you should answer
       npm init -y 
     ```
   </code-block>
+
   <code-block title = 'YARN'>
     ``` bash
        yarn init -y
     ```
   </code-block>
+
   <code-block title = 'PNPM'>
     ``` bash
       pnpm init -y
@@ -111,11 +115,13 @@ Now that you've installed Node.js and know how to open your console and run comm
   npm install biscord
 ```
 </code-block>
+
 <code-block title = 'YARN'>
 ``` bash
   yarn add biscord
 ```
 </code-block>
+
 <code-block title = 'PNPM'>
 ``` bash
   pnpm add biscord
