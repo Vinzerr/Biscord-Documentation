@@ -15,7 +15,7 @@ features:
     details: Powerful and Advanced Client constructor. 
   - title: Flexible
     details: Flexible Client managers.
-  - Feature-rich
+  - title: Feature-rich
     details: Features you can't access with other packages.
   - title: Pure JS
     details: Full javascript support.
