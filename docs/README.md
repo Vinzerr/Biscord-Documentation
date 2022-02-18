@@ -2,14 +2,8 @@
 home: true
 heroText: Biscord
 tagline: "Advance framework for Discord Bots."
-
-actions:
-  - text: Introduction
-    link: /doc/
-    type: primary
-  - text: Download package
-    link: https://www.npmjs.com/package/biscord
-    type: secondary
+actionText: Documentation
+actionLink: /doc/
 features:
   - title: Advance Framework
     details: Powerful and Advanced Client constructor. 
@@ -17,6 +11,8 @@ features:
     details: Flexible Client managers.
   - title: Feature-rich
     details: Features you can't access with other packages.
+  - title: Full Management
+    details: Manage how Biscord will behave.
   - title: Pure JS
     details: Full javascript support.
 footer: © Biscord 2021

@@ -95,7 +95,6 @@ To test if the CommandHandler is woring, you can send a message `!ping` to a Ser
 To wrap up this guide, the `index.js` or your main file should look like this:
 
 ```javascript
-
   var biscord = require('biscord);
   var Biscord = new biscord();
   var CommandHandler = new Biscord.CommandHandler( './commands' );

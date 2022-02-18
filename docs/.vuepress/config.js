@@ -77,13 +77,13 @@ module.exports = {
         },{
           title: 'Typedefs',
           collapsable: false,
-          children: [
-            '/doc/typedefs/options.md',
+          children: [ 
             '/doc/typedefs/path.md',
             '/doc/typedefs/commandsetup.md',
             '/doc/typedefs/commandsettings.md',
             '/doc/typedefs/eventsetup.md',
-            '/doc/typedefs/eventsettings.md'
+            '/doc/typedefs/eventsettings.md',
+            '/doc/typedefs/slashsettings.md',
           ]
         }
       ],
