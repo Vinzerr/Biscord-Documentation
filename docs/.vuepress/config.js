@@ -65,8 +65,8 @@ module.exports = {
           title: 'Managers & Handlers',
           collapsable: false,
           children: [
-            '/doc/classes/commandhandler.md',
-            '/doc/classes/eventhandler.md'
+            '/doc/managers/commandhandler.md',
+            '/doc/managers/eventhandler.md'
           ]
         },{
           title: 'SubClasses',
