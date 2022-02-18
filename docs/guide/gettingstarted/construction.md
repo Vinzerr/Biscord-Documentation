@@ -36,15 +36,13 @@ But first let's create a folder called `commands`, but you can name it however y
 Then let's add a file called `ping.js` to our `commands` folder.
 
 ```
-  
-  root
-    ├─── index.js
-    └─── commands
-      └─── ping.js
-  
+root
+  ├─── index.js
+  └─── commands
+    └─── ping.js
 ```
 
-Then let's add something to our `ping.js` file for it to work. You can costumize your own by visiting [CommandSetup](https://biscord.js.org/doc/typedefs/commandsetup.html) or you can follow what is shown below.
+Then let's add some codes in our `ping.js` file for it to work. You can costumize your own by visiting [CommandSetup](https://biscord.js.org/doc/typedefs/commandsetup.html) or you can follow what is shown below.
 
 ```javascript
 module.exports = {
@@ -92,4 +90,16 @@ And boom, your Client is now online.
 
 To test if the CommandHandler is woring, you can send a message `!ping` to a Server channel where your bot is in.
 
+## Output
+
+To wrap up this guide, the `index.js` or your main file should look like this:
+
+```javascript
+
+  var biscord = require('biscord);
+  var Biscord = new biscord();
+  var CommandHandler = new Biscord.CommandHandler( './commands' );
+
+  Biscord.Initialize( Token );
+```
 

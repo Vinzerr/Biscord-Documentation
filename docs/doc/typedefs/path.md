@@ -6,9 +6,13 @@ Path to your folders and files, path will start from your root directory.
 
 ## Examples
 
-`Root Directory / index.js` <br>
-`Root Directory / commands / help.js ` <br> 
-`Root Directory / commands / ban.js ` <br>
+```
+Root 
+  ├─── index.js
+  └─── commands
+    ├─── help.js
+    └─── ban.js             
+```
 
 ```javascript
 
@@ -16,9 +20,14 @@ Path to your folders and files, path will start from your root directory.
 
 ```
 
-`Root Directory / index.js` <br>
-`Root Directory / resources /commands / help.js ` <br> 
-`Root Directory / resources / commands / ban.js ` <br>
+```
+Root 
+  ├─── index.js
+  └─── resources
+    └─── commands
+      ├─── help.js
+      └─── ban.js             
+```
 
 ```javascript
 
@@ -28,9 +37,14 @@ Path to your folders and files, path will start from your root directory.
 
 ## Handled Categories
 
-`Root Directory / index.js` <br>
-`Root Directory / resources / commands / information / help.js ` <br> 
-`Root Directory / resources / commands / ban.js ` <br>
+```
+Root 
+  ├─── index.js
+  └─── commands
+    ├─── information
+    │  └─── help.js
+    └─── ban.js             
+```
 
 Handler that supports Handled Categories ( base folder with another folder inside ) detects folder and files.
 
