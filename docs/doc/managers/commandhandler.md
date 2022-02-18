@@ -5,14 +5,13 @@ Handle your commands for your servers.
 ## Constructor
 
 ```javascript
-
-  new Biscord.CommandHandler(path);
-
+  new Biscord.CommandHandler( Path , CommandSettings );
 ```
 
 | PARAMETER | TYPE | OPTIONAL | DESCRIPTION |
 | :---: | :-----: | :-----: | ----------- |
-| Path | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | ⨯ | The path to your commands. |
+| [Path](/doc/typedefs/path) | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | ⨯ | The path to your commands. |
+| [CommandSettings](https://biscord.js.org/doc/typedefs/commandsettings.html) | [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) | ✓ | The settings on how the CommandHandler will behave. |
 
 ## Methods
 

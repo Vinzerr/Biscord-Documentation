@@ -42,7 +42,8 @@ module.exports = {
           title: 'Getting Started',
           collapsable: false,
           children: [
-            '/guide/gettingstarted/installation'
+            '/guide/gettingstarted/installation.md',
+            '/guide/gettingstarted/construction.md'
           ]
         }
       ],
@@ -61,16 +62,23 @@ module.exports = {
             '/doc/classes/biscord.md'
           ]
         },{
-          title: 'Managers',
+          title: 'Managers & Handlers',
           collapsable: false,
           children: [
-            '/doc/managers/commandhandler.md',
-            '/doc/managers/eventhandler.md'
+            '/doc/classes/commandhandler.md',
+            '/doc/classes/eventhandler.md'
+          ]
+        },{
+          title: 'SubClasses',
+          collapsable: false,
+          children: [
+            '/doc/subclasses/slashhandler.md'
           ]
         },{
           title: 'Typedefs',
           collapsable: false,
           children: [
+            '/doc/typedefs/options.md',
             '/doc/typedefs/path.md',
             '/doc/typedefs/commandsetup.md',
             '/doc/typedefs/commandsettings.md',

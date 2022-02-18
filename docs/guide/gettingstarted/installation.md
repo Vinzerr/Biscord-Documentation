@@ -131,4 +131,4 @@ Now that you've installed Node.js and know how to open your console and run comm
 </code-block>
 </code-group>
 
-And that's it! With all the necessities installed, you're almost ready to start coding your bot.
+And that's it! With all the necessities installed, you're ready to start coding your bot.

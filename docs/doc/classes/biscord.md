@@ -5,9 +5,7 @@ The mind of your client.
 ## Constructor
 
 ```javascript
-
   new Biscord();
-
 ```
 
 ## Methods
