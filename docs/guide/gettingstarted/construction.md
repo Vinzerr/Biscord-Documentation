@@ -4,21 +4,21 @@
 
 If you haven't created your Bot application yet, you can follow this [guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html).
 
-### Importing biscord
+### Ceating Instance
 
-First let's include biscord to your project.
+First let's include biscord to your project and create a new instance.
 
 ```javascript
+
   var biscord = require('biscord);
+  var Biscord = new biscord({
+    token: TOKEN,
+    clientid: CLIENTID
+  });
+
 ```
 
-### Constructing Biscord
-
-Second let's construct the mind of your client.
-
-```javascript
-  var Biscord = new biscord();
-```
+Visit [configuration](/doc/typedefs/configuration) page to know more about TOKEN and CLIENTID.
 
 ### Optional ClientOptions
 This configuration is optional because we have already added some, but if you wish to configure your own [ClientOptions](https://discord.js.org/#/docs/main/stable/typedef/ClientOptions), you can do so by doing what is shown below.
@@ -31,9 +31,13 @@ This configuration is optional because we have already added some, but if you wi
 
 Add managers and handlers for you Client, but here we will add commands support to your Client.
 
-But first let's create a folder called `commands`, but you can name it however you want, so we can store our commands.
+First let's define CommandHandler for it to Initialize.
 
-Then let's add a file called `ping.js` to our `commands` folder.
+```javascript
+  var CommandHandler = new Biscord.CommandHandler();
+```
+
+Then let's create a folder called `commands`, but you can name it however you want, so we can store our commands, after that let's add a file called `ping.js` to our `commands` folder.
 
 ```
 root
@@ -58,37 +62,20 @@ module.exports = {
 }
 ```
 
-Now back to the main file, where you constructed the mind of your Client. Let's add the following.
-
-```javascript
-  var CommandHandler = new Biscord.CommandHandler( './commands' , CommandSettings );
-```
-
-Remember to change `commands` to what you named your commands folder.
-
-To now more about `CommandSettings` or the second arguments, visit [CommandSettings](https://biscord.js.org/doc/typedefs/commandsettings.html).
-
-Then we can now put your Client online.
+Then we can now start your Client.
 
 ### Initializing Biscord
-
-We can now make your Client online by a simple line and adding your Token on it.
+We can now start you client by initializing it.
 
 ```javascript
-  Biscord.Initialize( Token );
+  Biscord.Initialize();
 ```
 
-::: tip What is a Token?
-
-  A token is a secret string to use to authenticate to your Client, if you don't know how to obtain or what is a token. Read this [Guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html).
-
-:::
-
-And boom, your Client is now online.
+A log will be sent when your client is online.
 
 ## Testing
 
-To test if the CommandHandler is woring, you can send a message `!ping` to a Server channel where your bot is in.
+To test if the CommandHandler is woring, you can send a message `!ping` to a server channel where your Bot is currently in.
 
 ## Output
 
@@ -96,9 +83,12 @@ To wrap up this guide, the `index.js` or your main file should look like this:
 
 ```javascript
   var biscord = require('biscord);
-  var Biscord = new biscord();
+  var Biscord = new biscord({
+    token: TOKEN,
+    clientId: CLIENTID
+  });
   var CommandHandler = new Biscord.CommandHandler( './commands' );
 
-  Biscord.Initialize( Token );
+  Biscord.Initialize();
 ```
 
