@@ -11,7 +11,7 @@ Handle your commands for your servers.
 | PARAMETER | TYPE | OPTIONAL | DESCRIPTION |
 | :---: | :-----: | :-----: | ----------- |
 | [path](/doc/typedefs/path) | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | ⨯ | The path to your commands. |
-| [CommandSettings](https://biscord.js.org/doc/typedefs/commandsettings.html) | [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) | ✓ | The settings on how the CommandHandler will behave. |
+| [CommandSettings](/doc/typedefs/commandsettings) | [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) | ✓ | The settings on how the CommandHandler will behave. |
 
 ## Methods
 
@@ -74,3 +74,5 @@ Returns: [Boolean](https://developer.mozilla.org/en-US/docs/Glossary/Boolean)
 ### .destroy()
 
 Destroy this instance.
+
+Returns: none

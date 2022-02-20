@@ -32,3 +32,9 @@ Deletes an event from the collection.
 | Query | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | ⨯ | The name of an event. |
 
 Returns: < [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) , [Boolean](https://developer.mozilla.org/en-US/docs/Glossary/Boolean) >
+
+### .destroy()
+
+Deletes this instance.
+
+Returns: none

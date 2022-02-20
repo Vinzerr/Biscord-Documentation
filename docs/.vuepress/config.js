@@ -83,6 +83,7 @@ module.exports = {
           title: 'Typedefs',
           collapsable: false,
           children: [ 
+            '/doc/typedefs/configuration.md',
             '/doc/typedefs/path.md',
             '/doc/typedefs/commandsetup.md',
             '/doc/typedefs/commandsettings.md',

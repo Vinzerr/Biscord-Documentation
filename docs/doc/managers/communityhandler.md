@@ -9,17 +9,17 @@
 | PARAMETER | TYPE | OPTIONAL | DESCRIPTION | DEFAULT |
 | :---: | :-----: | :-----: | ----------- | :-------: |
 | [guilds](/doc/typedefs/path) | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) | ✓ | The guilds this handler applies to. | `[ 'all' ]` |
-| [CommunityOptions](https://biscord.js.org/doc/typedefs/commandsettings.html) | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) | ✓ | The options on how to handle your Communities. | `false` |
+| [CommunityOptions](/doc/typedefs/communityoptions) | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) | ✓ | The options on how to handle your Communities. | `false` |
 
 ## Methods
 
 ### .automaticRoles( roles )
 
-Client will add these roles to newly joined members.
+Client will add these roles to recently joined members.
 
 | PARAMETER | TYPE | OPTIONAL | DESCRIPTION |
 | :---: | :-----: | :-----: | ----------- |
-| [roles](/doc/typedefs/path) | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) | ⨯ | The roles to add to newly joined members. |
+| roles | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) | ⨯ | The roles to add to recently joined members. |
 
 ### .destroy()
 
