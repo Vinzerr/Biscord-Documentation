@@ -27,5 +27,6 @@
   "homepage": "https://github.com/Vinzerr/Biscord-Documentation#readme",
   "devDependencies": {
     "vuepress": "^1.9.7"
-  }
+  },
+  "dependencies": {}
 }

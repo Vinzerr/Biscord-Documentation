@@ -8,14 +8,15 @@ The mind of your client.
   new Biscord();
 ```
 
-## Methods
-
-### .intialize(token)
-Logins the Client to the provided account.
-
 | PARAMETER | TYPE | OPTIONAL | DESCRIPTION |
 | :---: | :-----: | :-----: | ----------- |
-| Token | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | ⨯ | Token of the account to log in into. |
+| token | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | ⨯ | Token of the account to log in into. |
+| clientId | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | ⨯ | The id of your application. |
+
+## Methods
+
+### .intialize()
+Logins the Client to the provided account.
 
 Returns: [Client](https://discord.js.org/#/docs/main/stable/class/Client)
 

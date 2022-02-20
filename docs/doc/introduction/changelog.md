@@ -2,7 +2,12 @@
 
 Changes to the package will be displayed here, it is recommended for you to regularly check for updates.
 
-::: tip Did you know?
-   Package updates can also be seen in the npmjs website.
-:::
+Last Updated : February 2 , 2022
+### Current Version 
+
+__Biscord@1.0.0-beta.0__
+
+### Changelog
+__Biscord Initial Publish__
+
 

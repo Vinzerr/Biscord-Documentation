@@ -9,6 +9,10 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
 
+  markdown: {
+    lineNumbers: true
+  },
+
   themeConfig: {
     repo: 'https://github.com/Vinzerr/biscord',
     docsRepo: 'https://github.com/Vinzerr/biscord-website',
@@ -66,7 +70,8 @@ module.exports = {
           collapsable: false,
           children: [
             '/doc/managers/commandhandler.md',
-            '/doc/managers/eventhandler.md'
+            '/doc/managers/eventhandler.md',
+            '/doc/typedefs/communityhandler.md'
           ]
         },{
           title: 'SubClasses',
@@ -83,7 +88,8 @@ module.exports = {
             '/doc/typedefs/commandsettings.md',
             '/doc/typedefs/eventsetup.md',
             '/doc/typedefs/eventsettings.md',
-            '/doc/typedefs/slashsettings.md',
+            '/doc/typedefs/slashoptions.md',
+            '/doc/typedefs/communityoptions.md'
           ]
         }
       ],
