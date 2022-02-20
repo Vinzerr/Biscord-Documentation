@@ -34,7 +34,7 @@ Add managers and handlers for you Client, but here we will add commands support 
 First let's define CommandHandler for it to Initialize.
 
 ```javascript
-  var CommandHandler = new Biscord.CommandHandler();
+  var CommandHandler = new Biscord.CommandHandler( './commands' );
 ```
 
 Then let's create a folder called `commands`, but you can name it however you want, so we can store our commands, after that let's add a file called `ping.js` to our `commands` folder.
@@ -46,7 +46,7 @@ root
     └─── ping.js
 ```
 
-Then let's add some codes in our `ping.js` file for it to work. You can costumize your own by visiting [CommandSetup](https://biscord.js.org/doc/typedefs/commandsetup.html) or you can follow what is shown below.
+Then let's add some codes in our `ping.js` file for it to work. You can costumize your own by visiting [CommandSetup](/doc/typedefs/commandsetup) or you can follow what is shown below.
 
 ```javascript
 module.exports = {

@@ -21,6 +21,10 @@ Client will add these roles to recently joined members.
 | :---: | :-----: | :-----: | ----------- |
 | roles | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) | ⨯ | The roles to add to recently joined members. |
 
+Returns: none
+
 ### .destroy()
 
 Destroy this instance.
+
+Returns: none

@@ -74,12 +74,6 @@ module.exports = {
             '/doc/managers/communityhandler.md'
           ]
         },{
-          title: 'SubClasses',
-          collapsable: false,
-          children: [
-            '/doc/subclasses/slashhandler.md'
-          ]
-        },{
           title: 'Typedefs',
           collapsable: false,
           children: [ 

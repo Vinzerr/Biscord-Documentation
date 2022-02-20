@@ -11,7 +11,7 @@
 
   module.exports = {
 
-    event: 'None' // No default 
+    event: 'None',
     once: false,
   
     async Execute ( params ) {
