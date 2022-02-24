@@ -46,7 +46,7 @@ root
     └─── ping.js
 ```
 
-Then let's add some codes in our `ping.js` file for it to work. You can costumize your own by visiting [CommandSetup](/doc/typedefs/commandsetup) or you can follow what is shown below.
+Then let's add some codes in our `ping.js` file for it to work. You can costumize your own by visiting [CommandResolvable](/doc/typedefs/commandresolvable) or you can follow what is shown below.
 
 ```javascript
 module.exports = {

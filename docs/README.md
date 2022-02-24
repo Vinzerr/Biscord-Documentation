@@ -1,34 +1,32 @@
 ---
 home: true
 heroText: Biscord
-tagline: "Advance framework for Discord Bots."
+tagline: The most advanced framework for Discord.js yet.
 actionText: Documentation
 actionLink: /doc/
 features:
   - title: Advance Framework
-    details: Powerful and Advanced Client constructor. 
+    details: Powerful and Advanced Client and Server constructor. 
   - title: Flexible
-    details: Flexible Client managers.
-  - title: Feature-rich
-    details: Features you can't access with other packages.
-  - title: Full Management
-    details: Manage how Biscord will behave.
+    details: Flexible managers and constructors.
+  - title: Management-Rich
+    details: Manage every inch of Biscord.
+  - title: Handled Errors
+    details: Errors doesn't stop us from developing.
   - title: Pure JS
     details: Full javascript support.
 footer: © Biscord 2021
 ---
 
-# I think, therefore Biscord. 
+# With great framework, anything is posibble.
 
-Create your bot in a matter of minutes.
+Create your client as easy as that.
+
+### Installation & Update
 
 ```bash
 
-  # Install
-
   npm install biscord
-
-  # Update
 
   npm update biscord
 
@@ -40,12 +38,11 @@ Create your bot in a matter of minutes.
   
   var Biscord = new biscord();
 
-  var Client = Biscord.initialize( Token );
+  var Client = Biscord.initialize({
+    token: TOKEN,
+    clientId: CLIENTID
+  });
 
-  /*
-
-    An you're all set! You can now use your bot in your discord servers.
-
-  */
+  Biscord.initialize();
 
 ```

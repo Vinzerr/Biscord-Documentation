@@ -15,8 +15,8 @@ Handle your events for your client.
 
 ## Methods
 
-### .get(query)
-Gets an event by their name or an alias.
+### .getEvent(query)
+Get an event by their name or an alias.
 
 | PARAMETER | TYPE | OPTIONAL | DESCRIPTION |
 | :---: | :-----: | :-----: | ----------- |
@@ -24,8 +24,8 @@ Gets an event by their name or an alias.
 
 Returns: < [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) , [Boolean](https://developer.mozilla.org/en-US/docs/Glossary/Boolean) >
 
-### .delete(query)
-Deletes an event from the collection.
+### .deleteEvent(query)
+Delete an event from the collection.
 
 | PARAMETER | TYPE | OPTIONAL | DESCRIPTION |
 | :---: | :-----: | :-----: | ----------- |

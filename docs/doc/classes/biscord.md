@@ -1,7 +1,5 @@
 # Biscord
 
-The mind of your client.
-
 ## Constructor
 
 ```javascript
@@ -19,9 +17,9 @@ Configure the ClientOptions yourself.
 
 | PARAMETER | TYPE | OPTIONAL | DESCRIPTION |
 | :---: | :-----: | :-----: | ----------- |
-| [ClientOptions](https://discord.js.org/#/docs/discord.js/stable/typedef/ClientOptions) | [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) | ✓ | `Default Options` |
+| [ClientOptions](https://discord.js.org/#/docs/discord.js/stable/typedef/ClientOptions) | [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) | ✓ | `Default Configuration` |
 
-Returns: none
+Returns: [Client](https://discord.js.org/#/docs/main/stable/class/Client)
 
 ### .intialize()
 Logins the Client to the provided account.
@@ -31,9 +29,4 @@ Returns: [Client](https://discord.js.org/#/docs/main/stable/class/Client)
 ### .destroy()
 Destroy this instance.
 
-Returns: none
-
-## Events
-
-### ready
-Emitted when Biscord is ready.
+Returns: None
