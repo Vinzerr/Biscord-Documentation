@@ -53,7 +53,7 @@ module.exports = {
           title: 'Handlers',
           collapsable: false,
           children: [
-            '/guide/gettingstarted/database'
+            '/guide/handlers/database'
           ]
         }
       ],
