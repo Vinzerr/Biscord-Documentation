@@ -3,7 +3,7 @@
 ## Constructor
 
 ``` javascript
-  new Biscord.CommandHandler(guilds, CommunityOptions);
+  new Biscord.CommandHandler( guilds, CommunityOptions )
 ```
 
 | PARAMETER | TYPE | OPTIONAL | DESCRIPTION | DEFAULT |

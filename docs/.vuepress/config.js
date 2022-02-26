@@ -71,7 +71,8 @@ module.exports = {
           children: [
             '/doc/managers/commandhandler.md',
             '/doc/managers/eventhandler.md',
-            '/doc/managers/communityhandler.md'
+            '/doc/managers/communityhandler.md',
+            '/doc/managers/databasehandler.md'
           ]
         },{
           title: 'Typedefs',

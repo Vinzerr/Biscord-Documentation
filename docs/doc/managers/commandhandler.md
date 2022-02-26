@@ -3,7 +3,7 @@
 ## Constructor
 
 ```javascript
-  new Biscord.CommandHandler(path, CommandSettings);
+  new Biscord.CommandHandler( path, CommandSettings )
 ```
 
 | PARAMETER | TYPE | OPTIONAL | DESCRIPTION |
@@ -89,7 +89,7 @@ Emits when a member is on command cooldown.
 | PARAMETER | TYPE | DESCRIPTION |
 | :-------: | :--: | :---------- |
 | message | [Message](https://discord.js.org/#/docs/discord.js/stable/class/Message) | The message that was submitted. |
-| command | CommandResolvable | The command that the member attempted to execute. |
+| command | [CommandResolvable](/doc/typedefs/commandresolvable) | The command that the member attempted to execute. |
 | arguments | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) | The arguments of the command. |
 | remaining | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | The remaining time before this command can be executed by this member. |
 
