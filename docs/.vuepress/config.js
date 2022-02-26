@@ -53,7 +53,7 @@ module.exports = {
           title: 'Handlers',
           collapsable: false,
           children: [
-            '/guide/handlers/database'
+            '/guide/handlers/databasehandler.md'
           ]
         }
       ],
