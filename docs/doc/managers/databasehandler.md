@@ -17,7 +17,7 @@ Get the keys of the key in the database.
 
 | PARAMETER | TYPE | OPTIONAL | DESCRIPTION |
 | :--: | :-----: | :-----: | ----------- |
-| key | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | ⨯ | The key you wish to get. |
+| key | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | ✓ | Return the keys inside of a key or all the keys in the database. |
 
 Returns: < [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) , [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) >
 

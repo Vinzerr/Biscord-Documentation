@@ -49,6 +49,12 @@ module.exports = {
             '/guide/gettingstarted/installation.md',
             '/guide/gettingstarted/construction.md'
           ]
+        },{
+          title: 'Handlers',
+          collapsable: false,
+          children: [
+            '/guide/gettingstarted/database'
+          ]
         }
       ],
       '/doc/': [
@@ -81,7 +87,7 @@ module.exports = {
             '/doc/typedefs/configuration.md',
             '/doc/typedefs/path.md',
             '/doc/typedefs/commandcodes.md',
-            '/doc/typedefs/commandresolvable.md',
+            '/doc/typedefs/commandsetup.md',
             '/doc/typedefs/commandsettings.md',
             '/doc/typedefs/eventsetup.md',
             '/doc/typedefs/eventsettings.md',

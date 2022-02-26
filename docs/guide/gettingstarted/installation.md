@@ -85,19 +85,19 @@ This command will prompt you with a series of questions, which you should answer
 
   <code-group>
   <code-block title = 'NPM'>
-    ``` bash
+    ```bash
       npm init -y 
     ```
   </code-block>
 
   <code-block title = 'YARN'>
-    ``` bash
+    ```bash
        yarn init -y
     ```
   </code-block>
 
   <code-block title = 'PNPM'>
-    ``` bash
+    ```bash
       pnpm init -y
     ```
   </code-block>

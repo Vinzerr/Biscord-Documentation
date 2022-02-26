@@ -2,42 +2,41 @@
 
 ## Constructing A New Client
 
-If you haven't created your Bot application yet, you can follow this [guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html).
+For your Bot to go online, you need a client. This page will cover on how to Create a client with Biscord framework.
 
 ### Ceating Instance
 
-First let's include biscord to your project and create a new instance.
+An instance is where we will store our Biscord Client.
 
 ```javascript
-
-  var biscord = require('biscord);
-  var Biscord = new biscord({
+  var framework = require('biscord');
+  var Biscord = new framework({
     token: TOKEN,
     clientid: CLIENTID
   });
-
 ```
 
 Visit [configuration](/doc/typedefs/configuration) page to know more about TOKEN and CLIENTID.
 
-### Optional ClientOptions
-This configuration is optional because we have already added some, but if you wish to configure your own [ClientOptions](https://discord.js.org/#/docs/main/stable/typedef/ClientOptions), you can do so by doing what is shown below.
+### ClientOptions
+Here if you wish to add your own [ClientOptions](https://discord.js.org/#/docs/main/stable/typedef/ClientOptions), you can do so by adding the code below. But if you do now wish to do so, you can ignore this step.
 
 ```javascript
   Biscord.configure( ClientOptions );
 ```
 
-### Manager and Handlers
+### Handlers
+For our Client to have more features, we can add Handlers and this step will cover how to add TextCommand.
 
-Add managers and handlers for you Client, but here we will add commands support to your Client.
-
-First let's define CommandHandler for it to Initialize.
+First, let's create an instance for our CommandHandler.
 
 ```javascript
   var CommandHandler = new Biscord.CommandHandler( './commands' );
 ```
 
-Then let's create a folder called `commands`, but you can name it however you want, so we can store our commands, after that let's add a file called `ping.js` to our `commands` folder.
+Second, create a folder called `commands`, but you can name it however you want, that is where we will store our commands.
+
+Third, create a file inside your commands folder, and name it `ping.js`.
 
 ```
 root
@@ -46,7 +45,7 @@ root
     └─── ping.js
 ```
 
-Then let's add some codes in our `ping.js` file for it to work. You can costumize your own by visiting [CommandResolvable](/doc/typedefs/commandresolvable) or you can follow what is shown below.
+For the command to work, we need to add some codes to it. You can costumize your own by visiting [CommandSetup](/doc/typedefs/commandsetup) or you can follow what is shown below.
 
 ```javascript
 module.exports = {
@@ -62,16 +61,16 @@ module.exports = {
 }
 ```
 
-Then we can now start your Client.
+You can now connect your client to Discord, and the commands will load.
 
-### Initializing Biscord
-We can now start you client by initializing it.
+### Connecting Client
+We can now connect your Client by doing so.
 
 ```javascript
-  Biscord.Initialize();
+  Biscord.connect();
 ```
 
-A log will be sent when your client is online.
+A log will be sent to your console when your Client is online, but watch out for errors.
 
 ## Testing
 
@@ -89,6 +88,6 @@ To wrap up this guide, the `index.js` or your main file should look like this:
   });
   var CommandHandler = new Biscord.CommandHandler( './commands' );
 
-  Biscord.Initialize();
+  Biscord.connect();
 ```
 
