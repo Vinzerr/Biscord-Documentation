@@ -3,17 +3,17 @@
 ## Constructor
 
 ```javascript
-  new Biscord( configuration );
+  new Biscord( BiscordConfiguration )
 ```
 
 | PARAMETER | TYPE | OPTIONAL | DESCRIPTION |
 | :---: | :-----: | :-----: | ----------- |
-| [configuration](/doc/typedefs/configuration) | [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) | ⨯ | `none` |
+| [BiscordConfiguration](/doc/typedefs/biscordconfiguration) | [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) | ⨯ | The configuration to configure your Biscord set up. |
 
 ## Methods
 
 ### .configure( ClientOptions )
-Configure the ClientOptions yourself.
+Configure the ClientOptions for your Client.
 
 | PARAMETER | TYPE | OPTIONAL | DESCRIPTION |
 | :---: | :-----: | :-----: | ----------- |
@@ -21,12 +21,12 @@ Configure the ClientOptions yourself.
 
 Returns: [Client](https://discord.js.org/#/docs/main/stable/class/Client)
 
-### .intialize()
+### .login()
 Logins the Client to the provided account.
 
-Returns: [Client](https://discord.js.org/#/docs/main/stable/class/Client)
+Returns: [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) < [Client](https://discord.js.org/#/docs/main/stable/class/Client) >
 
 ### .destroy()
 Destroy this instance.
 
-Returns: None
+Returns: Instance

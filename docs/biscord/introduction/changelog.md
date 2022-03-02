@@ -1,13 +1,15 @@
 # Changelog
+Last Updated : February 2 , 2022
 
 Changes to the package will be displayed here, it is recommended for you to regularly check for updates.
 
-Last Updated : February 2 , 2022
-### Current Version 
+## Current Version 
+Biscord@0.0.0-beta.0
 
-__Biscord@0.0.0-beta.0__
+## Changelogs
 
-### Changelog
-__Biscord Initial Publish__
+### [0.0.0-beta.0] Beta
+
+
 
 

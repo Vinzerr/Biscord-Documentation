@@ -26,12 +26,16 @@ module.exports = {
     smoothScroll: true,
     nav: [
       {
-        text: 'Documentation',
-        link: '/doc/',
+        text: 'Biscord',
+        link: '/biscord/',
       },
       {
         text: 'Guide',
         link: '/guide/'
+      },
+      {
+        text: 'Package',
+        link: 'https://www.npmjs.com/package/biscord'
       }
     ],
     sidebar: {
@@ -55,44 +59,50 @@ module.exports = {
           children: [
             '/guide/handlers/databasehandler.md'
           ]
+        },{
+          title: 'Events',
+          collapsable: false,
+          children: [
+            '/guide/events/emitters'
+          ]
         }
       ],
-      '/doc/': [
+      '/biscord/': [
         {
           title: 'Introduction',
           collapsable: false,
           children: [
-            '/doc/',
-            '/doc/introduction/changelog.md'
+            '/biscord/',
+            '/biscord/introduction/changelog.md'
           ]
         },{
           title: 'Classes',
           collapsable: false,
           children: [
-            '/doc/classes/biscord.md'
+            '/biscord/classes/biscord.md'
           ]
         },{
           title: 'Managers & Handlers',
           collapsable: false,
           children: [
-            '/doc/managers/commandhandler.md',
-            '/doc/managers/eventhandler.md',
-            '/doc/managers/communityhandler.md',
-            '/doc/managers/databasehandler.md'
+            '/biscord/managers/commandhandler.md',
+            '/biscord/managers/eventhandler.md',
+            '/biscord/managers/communityhandler.md',
+            '/biscord/managers/databasehandler.md'
           ]
         },{
           title: 'Typedefs',
           collapsable: false,
           children: [ 
-            '/doc/typedefs/configuration.md',
-            '/doc/typedefs/path.md',
-            '/doc/typedefs/commandcodes.md',
-            '/doc/typedefs/commandsetup.md',
-            '/doc/typedefs/commandsettings.md',
-            '/doc/typedefs/eventsetup.md',
-            '/doc/typedefs/eventsettings.md',
-            '/doc/typedefs/slashoptions.md',
-            '/doc/typedefs/communityoptions.md'
+            '/biscord/typedefs/biscordconfiguration.md',
+            '/biscord/typedefs/commandcodes.md',
+            '/biscord/typedefs/commandsetup.md',
+            '/biscord/typedefs/commandoptions.md',
+            '/biscord/typedefs/eventsetup.md',
+            '/biscord/typedefs/eventoptions.md',
+            '/biscord/typedefs/slashregistryoptions.md',
+            '/biscord/typedefs/communityoptions.md',
+            '/biscord/typedefs/path.md',
           ]
         }
       ],

@@ -1,20 +1,17 @@
 # Introduction
 
-Welcome to Biscord's Guide, here you will find guides on how to use the framework. 
+Welcome to Biscord's Guide, here this page will cover hows of using the Biscord framework. In this guide you will find: 
 
-In this guide you will find: 
+### How to construct Biscord
 
-- __How to construct Biscord__
+### How to construct Managers and more Features
 
-- __How to construct Managers and more Features__
+### How to set up Commands and Events from your Managers
 
-- __How to set up Commands and Events from your Managers__
+### How to start your Client
 
-- __How to start your Client__
+### And more
 
-- __How to deal with Errors__
+If you ecounter a problem or an issue on this Guide, you may open an issue or request a new pull on our Biscord-Webiste repository.
 
-- __And more__
-
-If you find or encounter a problem on this guide, you may open an issue or request a pull.
-
+If you think an issue or a pull request might not be a best step for the solution, you may join our Discord [server](https://discord.com/invite/PBjknh5vVC).
