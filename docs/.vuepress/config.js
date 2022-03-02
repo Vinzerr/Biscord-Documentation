@@ -26,8 +26,17 @@ module.exports = {
     smoothScroll: true,
     nav: [
       {
-        text: 'Biscord',
-        link: '/biscord/',
+        text: 'Documentations',
+        ariaLabel: 'Documentations Menu',
+        items: [
+          {
+            text: 'Biscord',
+            link: '/biscord/'
+          },{
+            test: 'Utilitycord',
+            link: '/utilitycord/'
+          }
+        ]
       },
       {
         text: 'Guide',
@@ -106,6 +115,21 @@ module.exports = {
           ]
         }
       ],
+      '/utilitycord/': [
+        {
+          title: 'Classes',
+          collapsable: false,
+          children: [
+            '/utilitycord/classes/embedpagination.md'
+          ]
+        },{
+          title: 'Typedefs',
+          collapsable: false,
+          children: [
+            '/utilitycord/typedefs/paginationoptions.md'
+          ]
+        }
+      ]
     },
     themePlugins: {
       backToTop: true,

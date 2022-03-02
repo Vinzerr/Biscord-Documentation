@@ -6,7 +6,7 @@ Emitters have three methods: on , once , and emit.
 
 ## Methods
 
-### .on( event , callback )
+### on( event , callback )
 Listens to the event.
 
 | PARAMETER | TYPE | OPTIONAL | DESCRIPTION |
@@ -14,7 +14,7 @@ Listens to the event.
 | event | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | ⨯ | The event to listen to. |
 | callback | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function) | ⨯ | The function when the event is fired. |
 
-### .once( event , callback )
+### once( event , callback )
 Listens to the evnt __once__.
 
 | PARAMETER | TYPE | OPTIONAL | DESCRIPTION |
@@ -22,7 +22,7 @@ Listens to the evnt __once__.
 | event | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | ⨯ | The event to listen to. |
 | callback | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function) | ⨯ | The function when the event is fired. |
 
-### .emit( event , ...arguments )
+### emit( event , ...arguments )
 Emits an event.
 
 | PARAMETER | TYPE | OPTIONAL | DESCRIPTION |

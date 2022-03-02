@@ -8,12 +8,12 @@
 
 | PARAMETER | TYPE | OPTIONAL | DESCRIPTION | DEFAULT |
 | :---: | :-----: | :-----: | ----------- | :-------: |
-| [guilds](/doc/typedefs/path) | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) | ✓ | The guilds this handler applies to. | `[ 'all' ]` |
-| [CommunityOptions](/doc/typedefs/communityoptions) | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) | ✓ | The options on how to handle your Communities. | `false` |
+| guilds | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) | ✓ | The guilds this handler applies to. | [ 'all' ] |
+| [CommunityOptions](/biscord/typedefs/communityoptions) | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) | ✓ | The options on how to handle your Communities. | false |
 
 ## Methods
 
-### .automaticRoles( roles )
+### automaticRoles( roles )
 
 Client will add these roles to recently joined members.
 
@@ -23,7 +23,7 @@ Client will add these roles to recently joined members.
 
 Returns: none
 
-### .destroy()
+### destroy( )
 
 Destroy this instance.
 

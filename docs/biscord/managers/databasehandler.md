@@ -12,7 +12,7 @@
 
 ## Methods
 
-### .keys( key )
+### keys( key )
 Get the keys of the key in the database.
 
 | PARAMETER | TYPE | OPTIONAL | DESCRIPTION |
@@ -21,7 +21,7 @@ Get the keys of the key in the database.
 
 Returns: [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
-### .get( key )
+### get( key )
 Get the value of a key in the database.
 
 | PARAMETER | TYPE | OPTIONAL | DESCRIPTION |
@@ -30,7 +30,7 @@ Get the value of a key in the database.
 
 Returns: Any
 
-### .set( key , value )
+### set( key , value )
 Set the value of a key in the database.
 
 | PARAMETER | TYPE | OPTIONAL | DESCRIPTION |
@@ -40,7 +40,7 @@ Set the value of a key in the database.
 
 Returns: [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
 
-### .push( key , value )
+### push( key , value )
 Pushes a value to the value of a key in the database.
 
 | PARAMETER | TYPE | OPTIONAL | DESCRIPTION |
@@ -50,7 +50,7 @@ Pushes a value to the value of a key in the database.
 
 Returns: [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
 
-### .add( key , value )
+### add( key , value )
 Adds to the value of a key in the database.
 
 | PARAMETER | TYPE | OPTIONAL | DESCRIPTION |
@@ -61,7 +61,7 @@ Adds to the value of a key in the database.
 Returns: [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
 
 
-### .subtract( key , value )
+### subtract( key , value )
 Subtracts to the value of a key in the database.
 
 | PARAMETER | TYPE | OPTIONAL | DESCRIPTION |
@@ -71,7 +71,7 @@ Subtracts to the value of a key in the database.
 
 Returns: [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
 
-### .delete( key )
+### delete( key )
 Deletes a key from the database.
 
 | PARAMETER | TYPE | OPTIONAL | DESCRIPTION |

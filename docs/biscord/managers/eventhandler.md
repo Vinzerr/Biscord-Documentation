@@ -1,17 +1,15 @@
 # Event Handler
 
-Handle your events for your client.
-
 ## Constructor
 
 ```javascript
-  new Biscord.EventHandler( path , EventSettings )
+  new Biscord.EventHandler( directory , EventSettings )
 ```
 
 | PARAMETER | TYPE | OPTIONAL | DESCRIPTION |
 | :--: | :-----: | :-----: | ----------- |
-| [path](/doc/typedefs/path) | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | ⨯ | The path to your events. |
-| [EventSettings](/doc/typedefs/eventsettings) | [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) | ✓ | The settings on how the EventHandler will behave. |
+| directory | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | ⨯ | The relative directory to your events. |
+| [EventOptions](/biscord/typedefs/eventoptions) | [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) | ✓ | The settings on how the EventHandler will behave. |
 
 ## Properties
 
@@ -22,7 +20,7 @@ Returns: [Collection](https://discord.js.org/#/docs/collection/main/class/Collec
 
 ## Methods
 
-### .destroy()
+### destroy( )
 
 Deletes this instance.
 
