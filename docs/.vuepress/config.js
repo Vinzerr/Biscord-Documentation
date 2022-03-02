@@ -33,7 +33,7 @@ module.exports = {
             text: 'Biscord',
             link: '/biscord/'
           },{
-            test: 'Utilitycord',
+            text: 'Utilitycord',
             link: '/utilitycord/'
           }
         ]
@@ -135,6 +135,10 @@ module.exports = {
       backToTop: true,
       mediumZoom: false,
     },
+    algolia: {
+      apiKey: 'TQDYBP463N',
+      indexName: 'biscord'
+    }
   },
 
   plugins: [
