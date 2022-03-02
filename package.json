@@ -26,7 +26,6 @@
   },
   "homepage": "https://github.com/Vinzerr/Biscord-Documentation#readme",
   "devDependencies": {
-    "@vuepress/plugin-docsearch": "^2.0.0-beta.36",
     "vuepress": "^1.9.7"
   },
   "dependencies": {}
