@@ -150,12 +150,5 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
-    [
-      '@vuepress/docsearch',
-      {
-        apiKey: 'a2076242e2f4c702dd03c3ede39f892d',
-        indexName: 'biscord'
-      }
-    ],
   ]
 }
