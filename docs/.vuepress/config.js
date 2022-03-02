@@ -117,6 +117,12 @@ module.exports = {
       ],
       '/utilitycord/': [
         {
+          title: 'Introduction',
+          collapsaable: false,
+          children: [
+            '/utilitycord/'
+          ]
+        },{
           title: 'Classes',
           collapsable: false,
           children: [
@@ -136,7 +142,7 @@ module.exports = {
       mediumZoom: false,
     },
     algolia: {
-      apiKey: 'TQDYBP463N',
+      apiKey: 'a2076242e2f4c702dd03c3ede39f892d',
       indexName: 'biscord'
     }
   },
@@ -144,5 +150,12 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    [
+      '@vuepress/docsearch',
+      {
+        apiKey: 'a2076242e2f4c702dd03c3ede39f892d',
+        indexName: 'biscord'
+      }
+    ],
   ]
 }
