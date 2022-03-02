@@ -1,0 +1,9 @@
+{
+  "name": "Biscord",
+  "short_name": "Biscord",
+  "description": "Advance framwork for Discord.js Bots.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#3eaf7c"
+}
